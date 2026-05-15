@@ -195,7 +195,7 @@ results/
 
 # 1. Reproducible Offline Research Mode
 
-Designed for:
+Designed for: without requiring Gemini API calls
 - reproducibility
 - open-source testing
 - permanent research usage
@@ -218,21 +218,66 @@ Run:
 PYTHONPATH=. uv run python agent/modelscope/rag_pipeline.py
 ```
 
+The pipeline will:
+- run retrieval experiments
+- evaluate grounding
+- analyze context efficiency
+- detect retrieval failures
+- generate optimization recommendations
+- produce adaptive next retrieval configs
+- store experiment results
+
+
 Then launch dashboard:
 
 ```bash
 PYTHONPATH=. uv run python agent/modelscope/comparison_dashboard.py
 ```
 
-This mode still runs:
-- retrieval diagnostics
-- grounding evaluation
-- context efficiency analysis
-- failure taxonomy
+The dashboard compares:
+- chunk size
+- top-k retrieval
+- grounding score
+- latency
 - optimization recommendations
-- experiment tracking
+- adaptive next retrieval configs
 
-without requiring Gemini API calls.
+---
+
+## Example Offline Workflow Output
+
+```text
+RUN: chunk=512, top_k=3
+
+SUMMARY:
+{
+  "avg_grounding_score": 0.67,
+  "avg_latency_sec": 0.02
+}
+
+CONTEXT EFFICIENCY ANALYSIS:
+{
+  "context_efficiency_ratio": 0.74,
+  "redundant_chunks": 0
+}
+
+RETRIEVAL FAILURE INTELLIGENCE:
+{
+  "findings": [
+    "No major retrieval failures detected."
+  ]
+}
+
+SELF-IMPROVEMENT PLAN:
+- Reduce noisy retrieval
+- Adjust top_k retrieval
+
+ADAPTIVE NEXT CONFIG:
+{
+  "chunk_size": 768,
+  "top_k": 2
+}
+```
 
 ---
 
