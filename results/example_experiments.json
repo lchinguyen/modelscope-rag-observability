@@ -1,0 +1,118 @@
+[
+  {
+    "config": {
+      "chunk_size": 512,
+      "top_k": 3
+    },
+    "mode": "mock",
+    "avg_grounding_score": 1.0,
+    "avg_latency_sec": 0.0,
+    "question_results": [
+      {
+        "prompt": "What are the advantages of grouped-query attention?",
+        "question": "What are the advantages of grouped-query attention?",
+        "answer": "Grouped-query attention improves KV-cache efficiency, reduces memory usage, and improves inference latency.",
+        "retrieved_chunks": [
+          "Mock retrieved context about GQA, KV-cache efficiency, memory usage, inference latency, quantization, and RAG grounding."
+        ],
+        "context_analysis": {
+          "total_chunk_tokens": 15,
+          "useful_chunk_tokens": 6,
+          "context_efficiency_ratio": 0.4,
+          "redundant_chunks": 0,
+          "recommendations": []
+        },
+        "failure_modes": [
+          "no_major_failure_detected"
+        ],
+        "eval": {
+          "grounding_score": 1.0,
+          "matched_topics": [
+            "KV cache",
+            "latency",
+            "memory efficiency"
+          ],
+          "missing_topics": [],
+          "latency_sec": 0.0,
+          "hallucination_risk": "low",
+          "token_usage_estimate": 23
+        }
+      }
+    ],
+    "long_context_analysis": [
+      {
+        "question": "What are the advantages of grouped-query attention?",
+        "context_class": "short_context",
+        "total_context_tokens": 15,
+        "context_efficiency_ratio": 0.4,
+        "degradation_risk": "low"
+      }
+    ],
+    "optimization_recommendations": [
+      "Current retrieval pipeline appears stable."
+    ],
+    "adaptive_next_config": {
+      "chunk_size": 512,
+      "top_k": 3
+    },
+    "timestamp": "2026-05-15T02:05:52.504932"
+  },
+  {
+    "config": {
+      "chunk_size": 1000,
+      "top_k": 5
+    },
+    "mode": "mock",
+    "avg_grounding_score": 1.0,
+    "avg_latency_sec": 0.0,
+    "question_results": [
+      {
+        "prompt": "What are the advantages of grouped-query attention?",
+        "question": "What are the advantages of grouped-query attention?",
+        "answer": "Grouped-query attention improves KV-cache efficiency, reduces memory usage, and improves inference latency.",
+        "retrieved_chunks": [
+          "Mock retrieved context about GQA, KV-cache efficiency, memory usage, inference latency, quantization, and RAG grounding."
+        ],
+        "context_analysis": {
+          "total_chunk_tokens": 15,
+          "useful_chunk_tokens": 6,
+          "context_efficiency_ratio": 0.4,
+          "redundant_chunks": 0,
+          "recommendations": []
+        },
+        "failure_modes": [
+          "no_major_failure_detected"
+        ],
+        "eval": {
+          "grounding_score": 1.0,
+          "matched_topics": [
+            "KV cache",
+            "latency",
+            "memory efficiency"
+          ],
+          "missing_topics": [],
+          "latency_sec": 0.0,
+          "hallucination_risk": "low",
+          "token_usage_estimate": 23
+        }
+      }
+    ],
+    "long_context_analysis": [
+      {
+        "question": "What are the advantages of grouped-query attention?",
+        "context_class": "short_context",
+        "total_context_tokens": 15,
+        "context_efficiency_ratio": 0.4,
+        "degradation_risk": "low"
+      }
+    ],
+    "optimization_recommendations": [
+      "Current retrieval pipeline appears stable."
+    ],
+    "adaptive_next_config": {
+      "chunk_size": 1000,
+      "top_k": 5
+    },
+    "timestamp": "2026-05-15T02:05:52.522968"
+  }
+]
