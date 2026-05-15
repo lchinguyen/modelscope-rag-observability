@@ -1,8 +1,7 @@
 # ModelScope: Research Platform for Retrieval Diagnostics and Context-Efficient RAG systems
 
-ModelScope is a research-oriented observability and evaluation platform designed for LLM researchers and retrieval engineers to analyze, diagnose, and optimize Retrieval-Augmented Generation (RAG) systems.
+ModelScope is a research-oriented observability and evaluation platform designed for LLM researchers to analyze, diagnose, and optimize inference optimization. This combine retrieval tracing, context efficiency analysis, retrieval failure diagnostics, long-context evaluation efficiency, and adaptive optimization to help researchers investigate how retrieval configurations influence grounding quality, latency, hallucination risk, token efficiency, and overall retrieval performance in modern large language model pipelines. focuses on:
 
-The platform combines retrieval tracing, context efficiency analysis, retrieval failure diagnostics, long-context evaluation, and adaptive optimization to help researchers investigate how retrieval configurations influence grounding quality, latency, hallucination risk, token efficiency, and overall retrieval performance in modern large language model pipelines.
 
 Built for the Arize @ Google Cloud Partnerships Hackathon track: https://rapid-agent.devpost.com/
 
@@ -21,39 +20,6 @@ The project combines:
 - Experiment tracking dashboard
 
 ---
-
-ModelScope is designed as an observability and evaluation platform for LLM researchers and RAG engineers.
-
-focuses on:
-- retrieval diagnostics
-- context efficiency
-- grounding analysis
-- long-context behavior
-- retrieval failure analysis
-- adaptive retrieval optimization
-
-the system combines:
-- Phoenix tracing
-- OpenInference instrumentation
-- retrieval evaluation
-- context analysis
-- experiment tracking
-- self-improvement recommendations
-
-to help researchers study and optimize retrieval pipelines in a reproducible way.
-
-The project is positioned as:
-
-```text
-Observable Self-Optimizing RAG Infrastructure
-```
-
-for:
-- LLM research
-- inference optimization
-- AI observability
-- retrieval system evaluation
-- production RAG diagnostics
 
 # Core Features
 
