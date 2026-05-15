@@ -269,7 +269,7 @@ without requiring Gemini API calls.
 
 ---
 
-# Live Gemini + Phoenix Mode for Google Cloud Rapid Agent Hackathon (https://rapid-agent.devpost.com/)
+# Live Gemini + Phoenix Mode for Google Cloud Rapid Agent Hackathon
 
 Designed for:
 - real tracing
