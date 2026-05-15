@@ -1,0 +1,6 @@
+[
+  {
+    "question": "What are the advantages of grouped-query attention?",
+    "expected_topics": ["KV cache", "latency", "memory efficiency"]
+  }
+]

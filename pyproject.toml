@@ -13,6 +13,16 @@ dependencies = [
     "opentelemetry-sdk>=1.27.0",
     "opentelemetry-exporter-otlp-proto-http>=1.27.0",
     "arize-phoenix>=7.0",
+    "langgraph>=1.2.0",
+    "llama-index>=0.14.21",
+    "chromadb>=1.5.9",
+    "fastapi>=0.136.1",
+    "uvicorn>=0.46.0",
+    "openinference-instrumentation-google-genai>=1.0.0",
+    "llama-index-embeddings-huggingface>=0.7.0",
+    "llama-index-llms-google-genai>=0.9.3",
+    "llama-index-llms-openai>=0.7.8",
+    "llama-index-llms-anthropic>=0.11.4",
 ]
 
 [tool.hatch.build.targets.wheel]

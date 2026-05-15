@@ -12,3 +12,8 @@ dist/
 
 .adk/
 agent/**/.adk/
+
+.gemini/
+
+results/*
+!results/example_experiments.json

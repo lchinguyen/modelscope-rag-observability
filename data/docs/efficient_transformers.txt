@@ -1,0 +1,11 @@
+Grouped-query attention (GQA) improves inference efficiency by sharing key and value heads across multiple query heads. This reduces KV-cache memory usage and improves latency during autoregressive decoding.
+
+Multi-query attention (MQA) is a more aggressive variant that uses a single shared key and value projection for all query heads.
+
+Quantization reduces memory and compute requirements for LLM inference by representing weights with lower precision formats such as INT8 or INT4.
+
+Retrieval-augmented generation (RAG) reduces hallucination by grounding responses in retrieved external documents.
+
+Vector databases store embeddings for semantic retrieval. Common systems include Chroma, FAISS, and Elastic.
+
+Embedding models convert text into dense vector representations for similarity search.
