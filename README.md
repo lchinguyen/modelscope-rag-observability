@@ -288,6 +288,22 @@ ADAPTIVE NEXT CONFIG:
 }
 ```
 
+# Live Research Dashboard
+
+Interactive Streamlit dashboard:
+
+[GroundTruth Streamlit Dashboard](https://groundtruth-context-efficient-rag.streamlit.app/?utm_source=chatgpt.com)
+
+The dashboard provides:
+- experiment tracking
+- grounding vs latency comparison
+- context efficiency analysis
+- retrieval failure diagnostics
+- adaptive optimization recommendations
+- retrieval configuration comparison
+
+The dashboard runs using the reproducible offline research mode and example experiment outputs included in the repository.
+
 ---
 
 # 2. Live Gemini + Phoenix Mode for Google Cloud Rapid Agent Hackathon
