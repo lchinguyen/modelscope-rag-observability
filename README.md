@@ -21,28 +21,38 @@ The project combines:
 
 ---
 
-# Main Idea
+ModelScope is designed as an observability and evaluation platform for LLM researchers and RAG engineers.
 
-Most RAG systems only generate answers.
+focuses on:
+- retrieval diagnostics
+- context efficiency
+- grounding analysis
+- long-context behavior
+- retrieval failure analysis
+- adaptive retrieval optimization
 
-ModelScope focuses on understanding:
+the system combines:
+- Phoenix tracing
+- OpenInference instrumentation
+- retrieval evaluation
+- context analysis
+- experiment tracking
+- self-improvement recommendations
 
-- why retrieval failed
-- whether retrieved context was useful
-- whether context became noisy or redundant
-- how grounding changes across retrieval settings
-- how long-context retrieval affects efficiency
-- how retrieval systems can improve automatically
+to help researchers study and optimize retrieval pipelines in a reproducible way.
 
-The platform is positioned as:
+The project is positioned as:
 
 ```text
 Observable Self-Optimizing RAG Infrastructure
 ```
 
-instead of a generic chatbot.
-
----
+for:
+- LLM research
+- inference optimization
+- AI observability
+- retrieval system evaluation
+- production RAG diagnostics
 
 # Core Features
 
