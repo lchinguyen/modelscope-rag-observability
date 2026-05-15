@@ -209,6 +209,8 @@ Designed for: without requiring Gemini API calls
 - open-source testing
 - permanent research usage
 
+Demo link: https://youtu.be/JSuyk-zalSE?si=Hy1pmXoPaW0CBxQf
+
 In:
 
 ```text
@@ -288,9 +290,7 @@ ADAPTIVE NEXT CONFIG:
 }
 ```
 
-# Live Research Dashboard
-
-Interactive Streamlit dashboard:
+# Interactive Streamlit dashboard:
 
 [GroundTruth Streamlit Dashboard](https://groundtruth-context-efficient-rag.streamlit.app/?utm_source=chatgpt.com)
 
@@ -301,8 +301,6 @@ The dashboard provides:
 - retrieval failure diagnostics
 - adaptive optimization recommendations
 - retrieval configuration comparison
-
-The dashboard runs using the reproducible offline research mode and example experiment outputs included in the repository.
 
 ---
 
