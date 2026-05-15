@@ -290,7 +290,9 @@ ADAPTIVE NEXT CONFIG:
 }
 ```
 
-# Interactive Streamlit dashboard: https://groundtruth-context-efficient-rag.streamlit.app/
+# Interactive Streamlit dashboard: 
+
+https://groundtruth-context-efficient-rag.streamlit.app/
 
 - experiment tracking
 - grounding vs latency comparison
