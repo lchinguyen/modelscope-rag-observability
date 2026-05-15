@@ -368,7 +368,7 @@ PHOENIX_PROJECT_NAME=gemini-hackathon
 
 # Arize Track Alignment
 
-ModelScope satisfies the Arize track by implementing:
+ Groundtruth satisfies the Arize track by implementing:
 
 - Gemini-powered runtime
 - code-owned observability pipeline
