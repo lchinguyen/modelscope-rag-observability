@@ -290,9 +290,10 @@ ADAPTIVE NEXT CONFIG:
 }
 ```
 
-# Interactive Streamlit dashboard: [GroundTruth Streamlit Dashboard](https://groundtruth-context-efficient-rag.streamlit.app/?utm_source=chatgpt.com)
+# Interactive Streamlit dashboard: 
 
-The dashboard provides:
+[GroundTruth Streamlit Dashboard](https://groundtruth-context-efficient-rag.streamlit.app/?utm_source=chatgpt.com)
+
 - experiment tracking
 - grounding vs latency comparison
 - context efficiency analysis
