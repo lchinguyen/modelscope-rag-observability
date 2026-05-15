@@ -290,9 +290,7 @@ ADAPTIVE NEXT CONFIG:
 }
 ```
 
-# Interactive Streamlit dashboard: 
-
-[GroundTruth Streamlit Dashboard](https://groundtruth-context-efficient-rag.streamlit.app/?utm_source=chatgpt.com)
+# Interactive Streamlit dashboard: https://groundtruth-context-efficient-rag.streamlit.app/
 
 - experiment tracking
 - grounding vs latency comparison
@@ -304,11 +302,6 @@ ADAPTIVE NEXT CONFIG:
 ---
 
 # 2. Live Gemini + Phoenix Mode for Google Cloud Rapid Agent Hackathon
-
-Designed for:
-- real tracing
-- production observability
-- hackathon demos
 
 In:
 
@@ -322,13 +315,33 @@ set:
 USE_MOCK_MODE = False
 ```
 
-Run:
+Run rag_pipeline.py: 
 
 ```bash
 PYTHONPATH=. uv run python agent/modelscope/rag_pipeline.py
 ```
+Gemini MCP introspection answer:
 
-Then inspect traces inside Phoenix Cloud.
+Run:
+```bash
+gemini
+```
+Then ask:
+```bash
+Which runs showed weak grounding?
+
+or:
+
+Summarize retrieval failures from recent traces
+```
+
+Open Phoenix Cloud and inspect GenerateContent trace generate:
+- experiment results updated
+- prompt
+- retrieved chunks/context
+- response
+- latency/tokens if available
+- span hierarchy
 
 This mode enables:
 - real Gemini inference
