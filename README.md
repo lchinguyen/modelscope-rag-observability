@@ -305,7 +305,7 @@ https://groundtruth-context-efficient-rag.streamlit.app/
 
 # 2. Live Gemini + Phoenix Mode for Google Cloud Rapid Agent Hackathon
 
-Demo link: https://youtu.be/WehGZ59WrLQ?si=cvCQ7hfgsZW--OQy
+Demo link: https://youtu.be/-PW7IK5jeOk?si=OabdlX_mI1lTF7zU
 
 In:
 
