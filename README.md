@@ -1,6 +1,8 @@
 # ModelScope: Research Platform for Retrieval Diagnostics and Context-Efficient RAG systems
 
-ModelScope is a research-oriented platform for evaluating, tracing, diagnosing, and improving Retrieval-Augmented Generation (RAG) systems.
+ModelScope is a research-oriented observability and evaluation platform designed for LLM researchers and retrieval engineers to analyze, diagnose, and optimize Retrieval-Augmented Generation (RAG) systems.
+
+The platform combines retrieval tracing, context efficiency analysis, retrieval failure diagnostics, long-context evaluation, and adaptive optimization to help researchers investigate how retrieval configurations influence grounding quality, latency, hallucination risk, token efficiency, and overall retrieval performance in modern large language model pipelines.
 
 Built for the Arize @ Google Cloud Partnerships Hackathon track: https://rapid-agent.devpost.com/
 
@@ -129,16 +131,22 @@ Tracks:
 
 ---
 
-## 6. Self-Improvement Optimizer
+## 6. Self-Improvement Optimization Loop
 
-Automatically recommends:
-- changing chunk size
-- changing top-k retrieval
-- reducing noisy retrieval
-- stricter grounded prompting
+ModelScope uses evaluation and observability signals from previous experiments to improve and recommend retrieval improvements over time.
 
-Then generates:
-- adaptive next retrieval configurations
+After each experiment run, the optimizer analyzes:
+- grounding quality
+- latency
+- hallucination risk
+- context efficiency
+- retrieval failure patterns
+
+then generate adaptive recommendations such as:
+- increasing chunk size to preserve missing context
+- reducing chunk size to lower latency
+- adjusting top-k retrieval to reduce noisy or redundant context
+- applying stricter grounded prompting when hallucination risk is high
 
 ---
 
