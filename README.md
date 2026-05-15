@@ -356,6 +356,8 @@ Open Phoenix Cloud and inspect GenerateContent trace generate:
 - response
 - latency/tokens if available
 - span hierarchy
+  
+<img width="1436" height="786" alt="Screenshot 2026-05-15 at 2 49 17 AM" src="https://github.com/user-attachments/assets/6916d7e8-0a44-4529-b31c-b9147a7ffe7c" />
 
 This mode enables:
 - real Gemini inference
