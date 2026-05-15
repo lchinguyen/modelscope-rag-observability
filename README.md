@@ -359,3 +359,197 @@ ModelScope satisfies the Arize track by implementing:
 - experiment tracking
 - retrieval diagnostics
 ```
+
+# Demo Workflow
+
+ModelScope supports two execution modes:
+
+1. Offline Reproducible Research Mode
+2. Live Gemini + Phoenix Observability Mode
+
+---
+
+# 1. Offline Reproducible Research Mode
+
+Designed for:
+- reproducibility
+- open-source testing
+- research experimentation
+- avoiding Gemini API quota limits
+
+This mode still runs:
+- retrieval diagnostics
+- grounding evaluation
+- context efficiency analysis
+- retrieval failure intelligence
+- long-context degradation analysis
+- adaptive optimization
+- experiment tracking
+
+without requiring live Gemini inference.
+
+---
+
+## Step 1 — Enable Offline Mode
+
+In:
+
+```text
+agent/modelscope/config.py
+```
+
+set:
+
+```python
+USE_MOCK_MODE = True
+```
+
+---
+
+## Step 2 — Run Research Pipeline
+
+```bash
+PYTHONPATH=. uv run python agent/modelscope/rag_pipeline.py
+```
+
+The pipeline will:
+- run retrieval experiments
+- evaluate grounding
+- analyze context efficiency
+- detect retrieval failures
+- generate optimization recommendations
+- produce adaptive next retrieval configs
+- store experiment results
+
+---
+
+## Step 3 — Inspect Experiment Dashboard
+
+```bash
+PYTHONPATH=. uv run python agent/modelscope/comparison_dashboard.py
+```
+
+The dashboard compares:
+- chunk size
+- top-k retrieval
+- grounding score
+- latency
+- optimization recommendations
+- adaptive next retrieval configs
+
+---
+
+## Example Offline Workflow Output
+
+```text
+RUN: chunk=512, top_k=3
+
+SUMMARY:
+{
+  "avg_grounding_score": 0.67,
+  "avg_latency_sec": 0.02
+}
+
+CONTEXT EFFICIENCY ANALYSIS:
+{
+  "context_efficiency_ratio": 0.74,
+  "redundant_chunks": 0
+}
+
+RETRIEVAL FAILURE INTELLIGENCE:
+{
+  "findings": [
+    "No major retrieval failures detected."
+  ]
+}
+
+SELF-IMPROVEMENT PLAN:
+- Reduce noisy retrieval
+- Adjust top_k retrieval
+
+ADAPTIVE NEXT CONFIG:
+{
+  "chunk_size": 768,
+  "top_k": 2
+}
+```
+
+---
+
+# 2. Live Gemini + Phoenix Observability Mode
+
+Designed for:
+- live Gemini inference
+- production observability
+- Phoenix tracing
+- MCP runtime introspection
+- hackathon demos
+
+---
+
+## Step 1 — Enable Live Gemini Mode
+
+In:
+
+```text
+agent/modelscope/config.py
+```
+
+set:
+
+```python
+USE_MOCK_MODE = False
+```
+
+---
+
+## Step 2 — Run Live Pipeline
+
+```bash
+PYTHONPATH=. uv run python agent/modelscope/rag_pipeline.py
+```
+
+This generates:
+- real Gemini responses
+- real Phoenix traces
+- real observability spans
+
+---
+
+## Step 3 — Inspect Phoenix Traces
+
+Open Phoenix Cloud and inspect:
+- prompts
+- retrieved chunks
+- answers
+- latency
+- token usage
+- grounding-related traces
+
+Recommended screenshots:
+- trace list
+- trace detail view
+- prompt/retrieval spans
+
+---
+
+## Step 4 — Phoenix MCP Introspection
+
+Run Gemini CLI:
+
+```bash
+gemini
+```
+
+Example MCP prompts:
+
+```text
+Show latest traces in my Phoenix project
+Which runs showed weak grounding?
+Which traces had highest latency?
+Summarize retrieval failures
+```
+
+This demonstrates runtime self-introspection over observability data using Phoenix MCP.
+
+---
