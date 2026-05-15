@@ -6,13 +6,10 @@
         "-y",
         "@arizeai/phoenix-mcp@latest",
         "--baseUrl",
-        "https://app.phoenix.arize.com/s/your-space",
+        "https://app.phoenix.arize.com/s/chi2006",
         "--apiKey",
-        ""
+        "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJBcGlLZXk6MSJ9._GeipPWeB-gdK-NKHap5PR1F_I6CWSmGXRWYdUodbTA"
       ]
-    },
-    "phoenix-docs": {
-      "url": "https://arizeai-433a7140.mintlify.app/mcp"
     }
   }
 }
