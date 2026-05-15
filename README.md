@@ -330,6 +330,10 @@ gemini
 ```
 Then ask:
 ```bash
+
+Summarize retrieval failures from recent traces
+
+or:
 Show latest traces in my gemini-hackathon Phoenix project
 
 or:
