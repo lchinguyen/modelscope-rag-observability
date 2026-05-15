@@ -4,7 +4,8 @@
 
 ModelScope is a research-oriented platform for evaluating, tracing, diagnosing, and improving Retrieval-Augmented Generation (RAG) systems.
 
-Built for the Arize @ Google Cloud Partnerships Hackathon track:
+Built for the Arize @ Google Cloud Partnerships Hackathon track: https://rapid-agent.devpost.com/
+
 
 > Build Gemini Agents with Full Observability and Self-Introspection via MCP
 
@@ -224,7 +225,6 @@ results/
 Designed for:
 - reproducibility
 - open-source testing
-- avoiding Gemini quota limits
 - permanent research usage
 
 In:
@@ -263,7 +263,7 @@ without requiring Gemini API calls.
 
 ---
 
-# Live Gemini + Phoenix Mode
+# Live Gemini + Phoenix Mode for Google Cloud Rapid Agent Hackathon (https://rapid-agent.devpost.com/)
 
 Designed for:
 - real tracing
