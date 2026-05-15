@@ -322,7 +322,7 @@ Run rag_pipeline.py:
 ```bash
 PYTHONPATH=. uv run python agent/modelscope/rag_pipeline.py
 ```
-Gemini MCP introspection answer:
+MCP introspection answer-Gemini CLI active:
 
 Run:
 ```bash
@@ -334,13 +334,20 @@ Then ask:
 Summarize retrieval failures from recent traces
 
 or:
-Show latest traces in my gemini-hackathon Phoenix project
-
-or:
 
 Which trace had the highest latency?
 
 ```
+
+Example Gemini MCP introspection prompt:
+
+```text
+Show latest traces in the gemini-hackathon Phoenix project
+```
+
+Example runtime MCP output:
+
+<img width="1051" height="349" alt="Phoenix MCP Runtime Introspection" src="https://github.com/user-attachments/assets/fc5e028f-0dcf-42f9-bc36-2f454c601e23" />
 
 Open Phoenix Cloud and inspect GenerateContent trace generate:
 - experiment results updated
