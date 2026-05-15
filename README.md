@@ -108,7 +108,7 @@ Tracks:
 
 ## 6. Self-Improvement Optimization Loop
 
-ModelScope uses evaluation and observability signals from previous experiments to improve and recommend retrieval improvements over time.
+uses evaluation and observability signals from previous experiments to improve and recommend retrieval improvements over time.
 
 After each experiment run, the optimizer analyzes:
 - grounding quality
