@@ -3,7 +3,7 @@
 GroundTruth is a research-oriented observability and evaluation platform designed for LLM researchers to analyze, diagnose, and optimize inference optimization. This combine retrieval tracing, context efficiency analysis, retrieval failure diagnostics, long-context evaluation efficiency, and adaptive optimization to help researchers investigate how retrieval configurations influence grounding quality, latency, hallucination risk, token efficiency, and overall retrieval performance in modern large language model pipelines.
 
 
-Built for the Arize @ Google Cloud Partnerships Hackathon track: https://rapid-agent.devpost.com/
+Built for the <img width="600" height="158" alt="image" src="https://github.com/user-attachments/assets/0ec12dbb-9827-417d-95a5-ee3747e85a89" /> Arize @ Google Cloud Partnerships Hackathon track: https://rapid-agent.devpost.com/
 
 
 > Build Gemini Agents with Full Observability and Self-Introspection via MCP
