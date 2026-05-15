@@ -1,6 +1,4 @@
-# ModelScope
-
-## Observable Self-Improving RAG Infrastructure
+# ModelScope: Research Platform for Retrieval Diagnostics and Context-Efficient RAG systems
 
 ModelScope is a research-oriented platform for evaluating, tracing, diagnosing, and improving Retrieval-Augmented Generation (RAG) systems.
 
