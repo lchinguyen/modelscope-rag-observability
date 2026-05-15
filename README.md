@@ -330,11 +330,12 @@ gemini
 ```
 Then ask:
 ```bash
-Which runs showed weak grounding?
+Show latest traces in my gemini-hackathon Phoenix project
 
 or:
 
-Summarize retrieval failures from recent traces
+Which trace had the highest latency?
+
 ```
 
 Open Phoenix Cloud and inspect GenerateContent trace generate:
